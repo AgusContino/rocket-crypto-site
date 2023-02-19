@@ -1,0 +1,319 @@
+/*-------------------- SITIO : AJUSTES GLOBALES -------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 0 10vw 0 10vw;
+}
+
+footer {
+    background-color: #9370cc;
+    height: 10vh;
+    padding: 0 15vw 0 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__smButton{
+    color: white;
+    text-decoration: underline;
+}
+.footer__logo{
+    height: 2em;
+}
+
+/*-------------------- SITIO : HEADER Y NAV -------------------*/
+
+header {
+    background-color: #9370cc;
+    height: 10vh;
+    padding: 0 15vw 0 15vw;
+}
+
+.header__nav {
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+}
+
+.nav__navbar {
+    background-color: #9370cc;
+    border-radius: 0 0 10px 10px;
+    margin: 0 0 0 auto;
+}
+
+.nav__logo {
+    height: 1.3em;
+}
+
+.nav__brand--font {
+    font-size: 2.45em;
+    font-weight: 800;
+    color: white;
+    padding: 0;
+}
+
+.nav__brand--font:hover {
+    color: #222A68;
+}
+
+.nav__link--font {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 800;
+    margin: 0 0.5em 0 0.5em;
+}
+
+.nav__link--font:hover {
+    color: #222A68;
+}
+
+.nav__subLink--font {
+    color: white;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+/*-------------------- PAGINA : HOME -------------------*/
+
+.title {
+    height: 90vh;
+    background-image: url(../media/bg-intro.png);
+    background-size: cover;
+    background-position: right;
+}
+
+.title div {
+    display: inline-block;
+    margin: 15vh 0 0 5vw;
+}
+
+.sectionTitle {
+    color: white;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.sectionSubtitle {
+    font-size: 2em;
+}
+
+.sectionButton {
+    width: 13em;
+    height: 3em;
+    background-color: white;
+    border: 0px;
+    border-radius: 8px;
+    color: #222A68;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+    font-weight: 800;
+    margin: 10px 0 0 0;
+}
+
+.invitation {
+    background-image: url(../media/bg-store.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.invitation div {
+    display: inline-block;
+    margin: 15vh 0 0 40vw;
+}
+@media (max-width: 1400px){
+    .invitation{
+        background-image: url(../media/bg-store-flip.png);
+        background-position: 70%;
+    }
+    .invitation div{
+        margin: 15vh 0 0 5vw;
+        width: 70%;
+    }
+}
+@media (max-width: 900px){
+    .invitation{
+        background-image: url(../media/bg-store-flip.png);
+        background-position: 50%;
+    }
+    .invitation div{
+        margin: 15vh 0 0 5vw;
+        width: 70%;
+    }
+}
+@media (max-width: 600px){
+    .invitation{
+        background-image: url(../media/bg-store-flip.png);
+        background-position: 50%;
+    }
+    .invitation div{
+        margin: 15vh 0 0 5vw;
+        width: 70%;
+    }
+    .sectionTitle{
+        font-size: 3em;
+    }
+    .sectionSubtitle{
+        font-size: 1.5em;
+    }
+    .nav__brand--font{
+        font-size: 1.5em;
+    }
+    .nav__hamBttn{
+        scale: 0.8;
+    }
+    .nav__link--font{
+        font-size: 1em;
+    }
+    .nav__subLink--font{
+        font-size: 0.8em;
+    }
+    footer, header{
+        padding: 0 5vw 0 5vw;
+    }
+    .footer__p{
+        scale: 0.8;
+    }
+    .footer__brand{
+        font-size: 0.8em;
+    }
+    .footer__smButton{
+        font-size: 0.9em;
+    }
+
+}
+
+/*-------------------- PAGINA : INTRODUCTION -------------------*/
+
+.mainContainer {
+    padding: 5em 10vw 5em 10vw;
+}
+
+.mainContainer h2,
+h3 {
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+
+.intro {
+    background-color: #9370cc;
+    height: 45vh;
+}
+
+.mainCoins {
+    background-color: #222A68;
+    height: 45vh;
+}
+
+.mainCoin__btc{
+    width: 50%;
+}
+.mainCoin__eth{
+    width: 50%;
+}
+
+.card__link{
+    margin: auto 0 0 0;
+    text-decoration: underline;
+}
+
+.mcFlex {
+    display: flex;
+}
+
+.altCoins {
+    background-color: #9370cc;
+}
+
+.coinCard {
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.coinCard h3,
+img {
+    display: inline-block;
+}
+
+.stableCoins {
+    background-color: #197278;
+}
+
+.custody {
+    background-color: #9370cc;
+    height: 45vh;
+}
+
+.exchanges {
+    background-color: #222A68;
+    height: 45vh;
+    display: flex;
+}
+
+.glitters {
+    background-color: #CE6A85;
+    height: 90vh;
+}
+
+.coinIcon {
+    display: inline-block;
+    height: 1.5em
+}
+
+.hardwareWallets {
+    background-color: #222A68;
+}
+
+.rigs {
+    background-color: #197278;
+}
+
+.walletCard {
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.rigCard {
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.contact {
+    background-color: #222A68;
+}
+
+.contactForm {
+    margin: auto;
+    padding: 1em 10vw 0 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+#name,
+#e-mail {
+    width: 50%;
+}
+
+.map {
+    width: 30vw;
+    padding: 1em 0 0 0;
+}
