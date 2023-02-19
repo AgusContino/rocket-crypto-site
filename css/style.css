@@ -29,11 +29,13 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-.footer__smButton{
+
+.footer__smButton {
     color: white;
     text-decoration: underline;
 }
-.footer__logo{
+
+.footer__logo {
     height: 2em;
 }
 
@@ -136,63 +138,80 @@ header {
     display: inline-block;
     margin: 15vh 0 0 40vw;
 }
-@media (max-width: 1400px){
-    .invitation{
+
+@media (max-width: 1400px) {
+    .invitation {
         background-image: url(../media/bg-store-flip.png);
         background-position: 70%;
     }
-    .invitation div{
+
+    .invitation div {
         margin: 15vh 0 0 5vw;
         width: 70%;
     }
 }
-@media (max-width: 900px){
-    .invitation{
+
+@media (max-width: 900px) {
+    .invitation {
         background-image: url(../media/bg-store-flip.png);
         background-position: 50%;
     }
-    .invitation div{
+
+    .invitation div {
         margin: 15vh 0 0 5vw;
         width: 70%;
     }
 }
-@media (max-width: 600px){
-    .invitation{
+
+@media (max-width: 600px) {
+    .invitation {
         background-image: url(../media/bg-store-flip.png);
         background-position: 50%;
     }
-    .invitation div{
+
+    .invitation div {
         margin: 15vh 0 0 5vw;
         width: 70%;
     }
-    .sectionTitle{
+
+    .sectionTitle {
         font-size: 3em;
     }
-    .sectionSubtitle{
+
+    .sectionSubtitle {
         font-size: 1.5em;
     }
-    .nav__brand--font{
+
+    .nav__brand--font {
         font-size: 1.5em;
     }
-    .nav__hamBttn{
+
+    .nav__hamBttn {
         scale: 0.8;
     }
-    .nav__link--font{
+
+    .nav__link--font {
         font-size: 1em;
     }
-    .nav__subLink--font{
+
+    .nav__subLink--font {
         font-size: 0.8em;
     }
-    footer, header{
+
+    footer,
+    header {
         padding: 0 5vw 0 5vw;
     }
-    .footer__p{
+
+    .footer__p {
         scale: 0.8;
     }
-    .footer__brand{
+
+    .footer__brand {
         font-size: 0.8em;
     }
-    .footer__smButton{
+
+    .footer__smButton {
         font-size: 0.9em;
     }
 
@@ -200,8 +219,15 @@ header {
 
 /*-------------------- PAGINA : INTRODUCTION -------------------*/
 
+.intro {
+    background-color: #9370cc;
+    min-height: 40vh;
+    display: flex;
+}
+
 .mainContainer {
-    padding: 5em 10vw 5em 10vw;
+    padding: 2em 10vw 2em 10vw;
+    margin: auto;
 }
 
 .mainContainer h2,
@@ -210,24 +236,27 @@ h3 {
     padding: 0 0 1em 0;
 }
 
-.intro {
-    background-color: #9370cc;
-    height: 45vh;
-}
-
 .mainCoins {
     background-color: #222A68;
-    height: 45vh;
+    min-height: 50vh;
+    display: flex;
 }
 
-.mainCoin__btc{
+.mainCoin__btc {
     width: 50%;
-}
-.mainCoin__eth{
-    width: 50%;
+    margin: 0 1vw 0 0;
 }
 
-.card__link{
+.mainCoin__eth {
+    width: 50%;
+    margin: 0 0 0 1vw;
+}
+
+.altCoins__cardsContainer{
+    margin: 5vh 0 0 0;
+}
+
+.card__link {
     margin: auto 0 0 0;
     text-decoration: underline;
 }
@@ -238,17 +267,6 @@ h3 {
 
 .altCoins {
     background-color: #9370cc;
-}
-
-.coinCard {
-    display: inline-block;
-    border: 2px solid black;
-    width: 200px;
-}
-
-.coinCard h3,
-img {
-    display: inline-block;
 }
 
 .stableCoins {
