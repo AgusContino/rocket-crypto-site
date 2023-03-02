@@ -1,0 +1,43 @@
+/*-------------------- SITIO : HEADER Y NAV -------------------*/
+
+header {
+	background-color: $background-color_1;
+	height: 10vh;
+	padding: 0 15vw 0 15vw;
+}
+.header__nav {
+	padding: 0;
+	margin: 0;
+	height: 10vh;
+}
+.nav__navbar {
+	background-color: $background-color_1;
+	border-radius: 0 0 10px 10px;
+	margin: 0 0 0 auto;
+}
+.nav__logo {
+	height: 1.3em;
+}
+.nav__brand--font {
+	font-size: 2.45em;
+	font-weight: 800;
+	color: $color_1;
+	padding: 0;
+	&:hover {
+		color: $color_2;
+	}
+}
+.nav__link--font {
+	color: $color_1;
+	font-size: 1.3em;
+	font-weight: 800;
+	margin: 0 0.5em 0 0.5em;
+	&:hover {
+		color: $color_2;
+	}
+}
+.nav__subLink--font {
+	color: $color_1;
+	font-size: 1em;
+	font-weight: 800;
+}

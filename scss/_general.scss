@@ -1,0 +1,15 @@
+/*-------------------- SITIO : AJUSTES GLOBALES -------------------*/
+@import "https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: $color_1;
+	font-family: $font-family_1;
+}
+a {
+	text-decoration: none;
+	color: $color_1;
+}

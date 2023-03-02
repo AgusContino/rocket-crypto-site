@@ -1,0 +1,149 @@
+/*-------------------- PAGINA : HOME -------------------*/
+section {
+	padding: 0 10vw 0 10vw;
+}
+.title {
+	height: 90vh;
+	background-image: url(../media/bg-intro.png);
+	background-size: cover;
+	background-position: right;
+	div {
+		display: inline-block;
+		margin: 15vh 0 0 5vw;
+	}
+}
+.sectionTitle {
+	color: $color_1;
+	font-size: 4em;
+	font-weight: 800;
+}
+.sectionSubtitle {
+	font-size: 2em;
+}
+.sectionButton {
+	width: 13em;
+	height: 3em;
+	background-color: $background-color_2;
+	border: 0px;
+	border-radius: 8px;
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 1.1em;
+	font-weight: 800;
+	margin: 10px 0 0 0;
+}
+.invitation {
+	background-image: url(../media/bg-store.png);
+	background-size: cover;
+	height: 90vh;
+	div {
+		display: inline-block;
+		margin: 15vh 0 0 40vw;
+	}
+}
+
+/*-------------------- PAGINA : INTRODUCTION -------------------*/
+
+.intro {
+	background-color: $background-color_1;
+	min-height: 40vh;
+	display: flex;
+}
+.mainContainer {
+	padding: 2em 10vw 2em 10vw;
+	margin: auto;
+	h2 {
+		text-align: center;
+		padding: 0 0 1em 0;
+	}
+}
+.mcFlex {
+	display: flex;
+}
+h3 {
+	text-align: center;
+	padding: 0 0 1em 0;
+}
+.mainCoins {
+	background-color: $background-color_3;
+	min-height: 50vh;
+	display: flex;
+}
+.mainCoin__btc {
+	width: 50%;
+	margin: 0 1vw 0 0;
+}
+.mainCoin__eth {
+	width: 50%;
+	margin: 0 0 0 1vw;
+}
+.altCoins__cardsContainer {
+	margin: 5vh 0 0 0;
+	display: flex;
+}
+.altCoins__coinCard {
+	width: 20%;
+}
+.card__link {
+	margin: auto 0 0 0;
+	text-decoration: underline;
+}
+.altCoins {
+	background-color: $background-color_1;
+}
+.stableCoins {
+	background-color: $background-color_4;
+}
+.custody {
+	background-color: $background-color_1;
+	height: 45vh;
+}
+.exchanges {
+	background-color: $background-color_3;
+	height: 45vh;
+	display: flex;
+}
+.glitters {
+	background-color: $background-color_5;
+	height: 90vh;
+}
+.coinIcon {
+	display: inline-block;
+	height: 1.5em;
+}
+.hardwareWallets {
+	background-color: $background-color_3;
+}
+.rigs {
+	background-color: $background-color_4;
+}
+.walletCard {
+	display: inline-block;
+	border: 2px solid black;
+	width: 200px;
+}
+.rigCard {
+	display: inline-block;
+	border: 2px solid black;
+	width: 200px;
+}
+.contact {
+	background-color: $background-color_3;
+}
+.contactForm {
+	margin: auto;
+	padding: 1em 10vw 0 10vw;
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+}
+#name {
+	width: 50%;
+}
+#e-mail {
+	width: 50%;
+}
+.map {
+	width: 30vw;
+	padding: 1em 0 0 0;
+}

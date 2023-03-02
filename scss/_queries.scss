@@ -1,0 +1,140 @@
+@media (max-width: 1400px) {
+	.invitation {
+		background-image: url(../media/bg-store-flip.png);
+		background-position: 70%;
+		div {
+			margin: 15vh 0 0 5vw;
+			width: 70%;
+		}
+	}
+}
+@media (max-width: 900px) {
+	.invitation {
+		background-image: url(../media/bg-store-flip.png);
+		background-position: 50%;
+		div {
+			margin: 15vh 0 0 5vw;
+			width: 70%;
+		}
+	}
+}
+@media (max-width: 600px) {
+	.invitation {
+		background-image: url(../media/bg-store-flip.png);
+		background-position: 50%;
+		div {
+			margin: 15vh 0 0 5vw;
+			width: 70%;
+		}
+	}
+	.sectionTitle {
+		font-size: 3em;
+	}
+	.sectionSubtitle {
+		font-size: 1.5em;
+	}
+	.nav__brand--font {
+		font-size: 1.5em;
+	}
+	.nav__hamBttn {
+		scale: 0.8;
+	}
+	.nav__link--font {
+		font-size: 1em;
+	}
+	.nav__subLink--font {
+		font-size: 0.8em;
+	}
+	footer {
+		padding: 0 5vw 0 5vw;
+	}
+	header {
+		padding: 0 5vw 0 5vw;
+	}
+	.footer__p {
+		scale: 0.8;
+	}
+	.footer__brand {
+		font-size: 0.8em;
+	}
+	.footer__smButton {
+		font-size: 0.9em;
+	}
+}
+@media (max-width: 1300px) {
+	.altCoins__cardsContainer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.altCoins__coinCard {
+		width: 32%;
+	}
+}
+@media (max-width: 999px) {
+	.mainContainer {
+		padding: 1em 0 1em 0;
+		h2 {
+			text-align: center;
+			padding: 0 0 0.5em 0;
+			font-size: 1.5em;
+		}
+		p {
+			font-size: 0.9em;
+		}
+	}
+	h3 {
+		text-align: center;
+		padding: 0 0 0.5em 0;
+		font-size: 1.5em;
+	}
+	.altCoins__coinCard {
+		width: 30%;
+		h5 {
+			font-size: 1em;
+		}
+		p {
+			font-size: 0.8em;
+		}
+		a {
+			font-size: 0.8em;
+		}
+	}
+}
+@media (max-width: 880px) {
+	.mcFlex {
+		display: flex;
+		flex-direction: column;
+	}
+	.mainCoin__btc {
+		width: auto;
+		margin: 0 0 0 0;
+	}
+	.mainCoin__eth {
+		width: auto;
+		margin: 1em 0 0 0;
+	}
+}
+@media (max-width: 650px) {
+	.intro {
+		padding: 0 3vw 0 3vw;
+	}
+	.mainCoins {
+		padding: 0 3vw 0 3vw;
+	}
+	.altCoins {
+		padding: 0 3vw 0 3vw;
+	}
+	.stableCoins {
+		padding: 0 3vw 0 3vw;
+	}
+}
+@media (max-width: 500px) {
+	.altCoins__coinCard {
+		width: 45%;
+	}
+}
+@media (max-width: 350px) {
+	.altCoins__coinCard {
+		width: auto;
+	}
+}
