@@ -1,3 +1,5 @@
+/*----- VARIABLES ------*/
+/*--------- MIXINs ------------*/
 /*-------------------- SITIO : AJUSTES GLOBALES -------------------*/
 @import "https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap";
 * {
@@ -148,24 +150,73 @@ h3 {
   height: 1.5em;
 }
 
+/* ---------- STORE ---------- */
 .hardwareWallets {
   background-color: #222A68;
+  height: 90vh;
 }
 
 .rigs {
   background-color: #197278;
+  height: 90vh;
 }
 
-.walletCard {
-  display: inline-block;
-  border: 2px solid black;
-  width: 200px;
+.store__cardsContainer {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.rigCard {
-  display: inline-block;
-  border: 2px solid black;
-  width: 200px;
+.store__cardsContainer .walletCard {
+  width: 250px;
+  background-color: rgb(20, 20, 20);
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.store__cardsContainer .walletCard h3 {
+  padding: 0;
+}
+.store__cardsContainer .walletCard img {
+  border-radius: 5px;
+  padding: 5px 0 15px 0;
+}
+.store__cardsContainer .walletCard .price {
+  font-size: 1.5em;
+  text-align: center;
+}
+.store__cardsContainer .walletCard button {
+  margin: auto;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+.store__cardsContainer .rigCard {
+  width: 250px;
+  background-color: rgb(20, 20, 20);
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.store__cardsContainer .rigCard h3 {
+  padding: 0;
+}
+.store__cardsContainer .rigCard img {
+  border-radius: 5px;
+  padding: 5px 0 15px 0;
+}
+.store__cardsContainer .rigCard .price {
+  font-size: 1.5em;
+  text-align: center;
+}
+.store__cardsContainer .rigCard button {
+  margin: auto;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 10px;
 }
 
 .contact {

@@ -1,8 +1,43 @@
+/*----- VARIABLES ------*/
+
 $color_1: white;
 $color_2: #222A68;
+$main__color-5: #FEB95F;
 $font-family_1: 'Nunito', sans-serif;
 $background-color_1: #9370cc;
 $background-color_2: white;
 $background-color_3: #222A68;
 $background-color_4: #197278;
 $background-color_5: #CE6A85;
+$product__card--bgColor: rgb(20, 20, 20);
+
+/*--------- MIXINs ------------*/
+
+@mixin product__card--style {
+	width: 250px;
+    background-color: $product__card--bgColor;
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        padding: 0;
+    }
+    img {
+        border-radius: 5px;
+        padding: 5px 0 15px 0;
+    }
+    .price {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    button {
+        margin: auto;
+        padding: 10px;
+        font-weight: 800;
+        border-radius: 10px;
+    }
+
+}
