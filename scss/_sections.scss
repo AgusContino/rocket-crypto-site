@@ -140,17 +140,18 @@ h3 {
 
 .hardwareWallets {
 	background-color: $background-color_3;
-	height: 90vh;
+	min-height: 90vh;
 }
 
 .rigs {
 	background-color: $background-color_4;
-	height: 90vh;
+	min-height: 90vh;
 }
 
 .store__cardsContainer {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 
 	.walletCard {
 		@include product__card--style;
