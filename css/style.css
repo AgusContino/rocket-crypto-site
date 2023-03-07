@@ -135,18 +135,18 @@ h3 {
 
 .custody {
   background-color: #9370cc;
-  height: 45vh;
+  min-height: 45vh;
 }
 
 .exchanges {
   background-color: #222A68;
-  height: 45vh;
+  min-height: 45vh;
   display: flex;
 }
 
 .glitters {
   background-color: #CE6A85;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .coinIcon {
@@ -226,13 +226,16 @@ h3 {
   border-radius: 10px;
 }
 
+/*------------ CONTACT --------------*/
 .contact {
   background-color: #222A68;
+}
+.contact form {
+  padding: 0 0 2em 0;
 }
 
 .contactForm {
   margin: auto;
-  padding: 1em 10vw 0 10vw;
   display: flex;
   flex-direction: column;
   width: 30vw;
@@ -341,13 +344,19 @@ footer {
   .rigs .mainContainer {
     padding: 2em 0 2em 0;
   }
+  .contactForm {
+    width: 50vw;
+  }
+  .map {
+    width: 50vw;
+  }
 }
 @media (max-width: 1050px) {
   .hardwareWallets {
     padding: 0 2vw 0 2vw;
   }
   .rigs .mainContainer {
-    padding: 0 2vw 0 2vw;
+    padding: 2em 2vw 2em 2vw;
   }
 }
 @media (max-width: 900px) {
@@ -358,6 +367,12 @@ footer {
   .invitation div {
     margin: 15vh 0 0 5vw;
     width: 70%;
+  }
+  .contactForm {
+    width: 75vw;
+  }
+  .map {
+    width: 75vw;
   }
 }
 @media (max-width: 600px) {
@@ -401,6 +416,22 @@ footer {
   }
   .footer__smButton {
     font-size: 0.9em;
+  }
+  .contact .contactForm {
+    width: auto;
+    margin: auto;
+  }
+  .contact .mainContainer {
+    padding: 1em 5vw 1em 5vw;
+  }
+  .contact .map {
+    width: auto;
+  }
+  #name {
+    width: 100%;
+  }
+  #e-mail {
+    width: 100%;
   }
 }
 @media (max-width: 1300px) {

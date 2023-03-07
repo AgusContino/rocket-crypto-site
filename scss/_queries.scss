@@ -29,6 +29,12 @@
 			padding: 2em 0 2em 0;
 		}
 	}
+	.contactForm{
+		width: 50vw;
+	}
+	.map{
+		width: 50vw;
+	}
 }
 @media (max-width: 1050px) {
 	.hardwareWallets{
@@ -36,7 +42,7 @@
 	}
 	.rigs{
 		.mainContainer{
-			padding: 0 2vw 0 2vw;
+			padding: 2em 2vw 2em 2vw;
 		}
 	}
 }
@@ -48,6 +54,12 @@
 			margin: 15vh 0 0 5vw;
 			width: 70%;
 		}
+	}
+	.contactForm{
+		width: 75vw;
+	}
+	.map{
+		width: 75vw;
 	}
 }
 @media (max-width: 600px) {
@@ -92,6 +104,27 @@
 	.footer__smButton {
 		font-size: 0.9em;
 	}
+
+	.contact{
+		.contactForm{
+			width: auto;
+			margin: auto;
+		}
+		.mainContainer{
+			padding: 1em 5vw 1em 5vw;
+		}
+		.map{
+			width: auto;
+		}
+	}
+
+	#name {
+		width: 100%;
+	}
+	#e-mail {
+		width: 100%;
+	}
+
 }
 @media (max-width: 1300px) {
 	.altCoins__cardsContainer {

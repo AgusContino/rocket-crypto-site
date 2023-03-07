@@ -116,18 +116,18 @@ h3 {
 
 .custody {
 	background-color: $background-color_1;
-	height: 45vh;
+	min-height: 45vh;
 }
 
 .exchanges {
 	background-color: $background-color_3;
-	height: 45vh;
+	min-height: 45vh;
 	display: flex;
 }
 
 .glitters {
 	background-color: $background-color_5;
-	height: 90vh;
+	min-height: 90vh;
 }
 
 .coinIcon {
@@ -163,13 +163,17 @@ h3 {
 
 }
 
+/*------------ CONTACT --------------*/
+
 .contact {
 	background-color: $background-color_3;
+	form{
+		padding: 0 0 2em 0;
+	}
 }
 
 .contactForm {
 	margin: auto;
-	padding: 1em 10vw 0 10vw;
 	display: flex;
 	flex-direction: column;
 	width: 30vw;
