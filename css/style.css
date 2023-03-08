@@ -58,6 +58,15 @@ section {
   font-size: 1.1em;
   font-weight: 800;
   margin: 10px 0 0 0;
+  transition: all 0.5s;
+}
+.sectionButton:hover {
+  background-color: #222A68;
+  color: #FEB95F;
+  transform: scale(1.05);
+}
+.sectionButton:active {
+  transform: scale(1);
 }
 
 .invitation {
@@ -122,6 +131,8 @@ h3 {
 
 .card__link {
   margin: auto 0 0 0;
+}
+.card__link:hover {
   text-decoration: underline;
 }
 
@@ -196,6 +207,15 @@ h3 {
   padding: 10px;
   font-weight: 800;
   border-radius: 10px;
+  transition: all 0.5s;
+}
+.store__cardsContainer .walletCard button:hover {
+  background-color: #222A68;
+  color: #FEB95F;
+  transform: scale(1.05);
+}
+.store__cardsContainer .walletCard button:active {
+  transform: scale(1);
 }
 .store__cardsContainer .rigCard {
   width: 250px;
@@ -224,6 +244,15 @@ h3 {
   padding: 10px;
   font-weight: 800;
   border-radius: 10px;
+  transition: all 0.5s;
+}
+.store__cardsContainer .rigCard button:hover {
+  background-color: #222A68;
+  color: #FEB95F;
+  transform: scale(1.05);
+}
+.store__cardsContainer .rigCard button:active {
+  transform: scale(1);
 }
 
 /*------------ CONTACT --------------*/

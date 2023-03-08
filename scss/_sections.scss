@@ -36,6 +36,7 @@ section {
 	font-size: 1.1em;
 	font-weight: 800;
 	margin: 10px 0 0 0;
+	@include buttonTransform;
 }
 
 .invitation {
@@ -103,7 +104,9 @@ h3 {
 
 .card__link {
 	margin: auto 0 0 0;
-	text-decoration: underline;
+	&:hover{
+		text-decoration: underline;
+	}
 }
 
 .altCoins {
