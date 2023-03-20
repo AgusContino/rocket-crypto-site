@@ -117,12 +117,34 @@ h3 {
 
 .mainCoin__btc {
   width: 50%;
+  padding: 15px;
   margin: 0 1vw 0 0;
+  border: 5px solid #FEB95F;
+  border-radius: 10px;
+  background-image: url(../media/btc-transparent.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.mainCoin__btc h2 {
+  color: #FEB95F;
+  font-weight: 800;
 }
 
 .mainCoin__eth {
   width: 50%;
+  padding: 15px;
   margin: 0 0 0 1vw;
+  border: 5px solid #FEB95F;
+  border-radius: 10px;
+  background-image: url(../media/eth-transparent.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.mainCoin__eth h2 {
+  color: #FEB95F;
+  font-weight: 800;
 }
 
 .altCoins__cardsContainer {
