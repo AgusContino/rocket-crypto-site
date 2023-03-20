@@ -138,10 +138,29 @@ h3 {
 	background-color: $background-color_1;
 	background: linear-gradient(to bottom, $background-color_3, $background-color_4);
 	position: relative;
+	*{
+		position: relative;
+		z-index: 10;
+	}
 }
 
 .stableCoins {
 	background-color: $background-color_4;
+	position: relative;
+
+	.mainContainer{
+		position: relative;
+		z-index: 10;
+	}
+
+	.spaceship-4{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: 0;
+		max-width: 50vw;
+		max-height: 100vh;
+	}
 }
 
 /*---------------- PAGE : custody -----------------*/
@@ -247,6 +266,18 @@ h3 {
 	form{
 		padding: 0 0 2em 0;
 	}
+
+	.mainContainer{
+		position: relative;
+
+		.spaceship-3{
+			position: absolute;
+			right: 2vw;
+			top: 30vh;
+			max-width: 50vw;
+			z-index: 0;
+		}
+	}
 }
 
 .contactForm {
@@ -254,6 +285,8 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	width: 30vw;
+	position: relative;
+	z-index: 2;
 	* {
 		margin: 2px 0 2px 0;
 		border-radius: 5px;

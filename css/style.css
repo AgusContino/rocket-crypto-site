@@ -177,9 +177,26 @@ h3 {
   background: linear-gradient(to bottom, #222A68, #197278);
   position: relative;
 }
+.altCoins * {
+  position: relative;
+  z-index: 10;
+}
 
 .stableCoins {
   background-color: #197278;
+  position: relative;
+}
+.stableCoins .mainContainer {
+  position: relative;
+  z-index: 10;
+}
+.stableCoins .spaceship-4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  max-width: 50vw;
+  max-height: 100vh;
 }
 
 /*---------------- PAGE : custody -----------------*/
@@ -350,12 +367,24 @@ h3 {
 .contact form {
   padding: 0 0 2em 0;
 }
+.contact .mainContainer {
+  position: relative;
+}
+.contact .mainContainer .spaceship-3 {
+  position: absolute;
+  right: 2vw;
+  top: 30vh;
+  max-width: 50vw;
+  z-index: 0;
+}
 
 .contactForm {
   margin: auto;
   display: flex;
   flex-direction: column;
   width: 30vw;
+  position: relative;
+  z-index: 2;
 }
 .contactForm * {
   margin: 2px 0 2px 0;
