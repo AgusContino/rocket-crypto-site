@@ -98,7 +98,7 @@ section {
 .mainContainer {
   padding: 2em 10vw 2em 10vw;
   margin: auto;
-  z-index: 1;
+  z-index: 5;
 }
 .mainContainer h2, .mainContainer h1 {
   text-align: center;
@@ -177,16 +177,6 @@ h3 {
   background: linear-gradient(to bottom, #222A68, #197278);
   position: relative;
 }
-.altCoins .spaceships-2 {
-  position: absolute;
-  right: 0;
-  top: -10vh;
-  z-index: 0;
-}
-
-.altCoins__mainContainer {
-  z-index: -500;
-}
 
 .stableCoins {
   background-color: #197278;
@@ -197,6 +187,18 @@ h3 {
   background-color: #9370cc;
   background: linear-gradient(to bottom, #9370cc, #222A68);
   min-height: 45vh;
+  position: relative;
+}
+.custody .mainContainer {
+  position: relative;
+  z-index: 2;
+}
+.custody .spaceships-2 {
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  z-index: 0;
+  max-width: 50vw;
 }
 
 .custody__exchangesAndWallets {
