@@ -1,5 +1,6 @@
 /*----- VARIABLES ------*/
 
+
 $color_1: white;
 $color_2: #222A68;
 $main__color-5: #FEB95F;
@@ -11,7 +12,9 @@ $background-color_4: #197278;
 $background-color_5: #CE6A85;
 $product__card--bgColor: rgb(20, 20, 20);
 
+
 /*--------- MIXINs ------------*/
+
 
 @mixin buttonTransform {
     transition: all 0.5s;
@@ -23,6 +26,17 @@ $product__card--bgColor: rgb(20, 20, 20);
     &:active{
         transform: scale(1);
     }
+}
+
+@mixin secondary__section{
+    width: 50%;
+	padding: 15px;
+	margin: 0 1vw 0 0;
+	border: 5px solid $main__color-5;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
 }
 
 @mixin product__card--style {
@@ -47,7 +61,7 @@ $product__card--bgColor: rgb(20, 20, 20);
         text-align: center;
     }
     button {
-        margin: auto;
+        margin: auto auto 0 auto;
         padding: 10px;
         font-weight: 800;
         border-radius: 10px;

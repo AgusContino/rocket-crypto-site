@@ -21,7 +21,7 @@ a {
   color: white;
 }
 
-/*-------------------- PAGINA : HOME -------------------*/
+/*-------------------- PAGE : HOME -------------------*/
 section {
   padding: 0 10vw 0 10vw;
 }
@@ -79,17 +79,26 @@ section {
   margin: 15vh 0 0 40vw;
 }
 
-/*-------------------- PAGINA : INTRODUCTION -------------------*/
+/*-------------------- PAGE : introduction -------------------*/
 .intro {
   background-color: #9370cc;
   background: linear-gradient(to bottom, #9370cc, #222A68);
   min-height: 40vh;
   display: flex;
+  position: relative;
+}
+.intro .spaceships-1 {
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  top: 10vh;
+  max-width: 50vw;
 }
 
 .mainContainer {
   padding: 2em 10vw 2em 10vw;
   margin: auto;
+  z-index: 1;
 }
 .mainContainer h2, .mainContainer h1 {
   text-align: center;
@@ -121,10 +130,10 @@ h3 {
   margin: 0 1vw 0 0;
   border: 5px solid #FEB95F;
   border-radius: 10px;
-  background-image: url(../media/btc-transparent.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
+  background-image: url(../media/btc-transparent.png);
 }
 .mainCoin__btc h2 {
   color: #FEB95F;
@@ -134,13 +143,13 @@ h3 {
 .mainCoin__eth {
   width: 50%;
   padding: 15px;
-  margin: 0 0 0 1vw;
+  margin: 0 1vw 0 0;
   border: 5px solid #FEB95F;
   border-radius: 10px;
-  background-image: url(../media/eth-transparent.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
+  background-image: url(../media/eth-transparent.png);
 }
 .mainCoin__eth h2 {
   color: #FEB95F;
@@ -166,26 +175,73 @@ h3 {
 .altCoins {
   background-color: #9370cc;
   background: linear-gradient(to bottom, #222A68, #197278);
+  position: relative;
+}
+.altCoins .spaceships-2 {
+  position: absolute;
+  right: 0;
+  top: -10vh;
+  z-index: 0;
+}
+
+.altCoins__mainContainer {
+  z-index: -500;
 }
 
 .stableCoins {
   background-color: #197278;
 }
 
+/*---------------- PAGE : custody -----------------*/
 .custody {
   background-color: #9370cc;
+  background: linear-gradient(to bottom, #9370cc, #222A68);
   min-height: 45vh;
 }
 
-.exchanges {
+.custody__exchangesAndWallets {
   background-color: #222A68;
   min-height: 45vh;
   display: flex;
 }
 
+.custody__exchange {
+  width: 50%;
+  padding: 15px;
+  margin: 0 1vw 0 0;
+  border: 5px solid #FEB95F;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  background-image: url(../media/exchanges-transparent.png);
+}
+.custody__exchange h2 {
+  color: #FEB95F;
+  font-weight: 800;
+}
+
+.custody__wallet {
+  width: 50%;
+  padding: 15px;
+  margin: 0 1vw 0 0;
+  border: 5px solid #FEB95F;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  background-image: url(../media/wallet-transparent.png);
+}
+.custody__wallet h2 {
+  color: #FEB95F;
+  font-weight: 800;
+}
+
+/*----------------------PAGE : glitters--------------------------------*/
 .glitters {
   background-color: #CE6A85;
   background-image: url(../media/bg-warning.png);
+  background-position: right;
   background-size: cover;
   min-height: 90vh;
 }
@@ -195,7 +251,7 @@ h3 {
   height: 1.5em;
 }
 
-/* ---------- STORE ---------- */
+/* ---------- PAGE : store ---------- */
 .hardwareWallets {
   background-color: #222A68;
   min-height: 90vh;
@@ -233,7 +289,7 @@ h3 {
   text-align: center;
 }
 .store__cardsContainer .walletCard button {
-  margin: auto;
+  margin: auto auto 0 auto;
   padding: 10px;
   font-weight: 800;
   border-radius: 10px;
@@ -270,7 +326,7 @@ h3 {
   text-align: center;
 }
 .store__cardsContainer .rigCard button {
-  margin: auto;
+  margin: auto auto 0 auto;
   padding: 10px;
   font-weight: 800;
   border-radius: 10px;
@@ -285,7 +341,7 @@ h3 {
   transform: scale(1);
 }
 
-/*------------ CONTACT --------------*/
+/*------------ PAGE : CONTACT --------------*/
 .contact {
   background-color: #222A68;
 }
@@ -298,6 +354,25 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 30vw;
+}
+.contactForm * {
+  margin: 2px 0 2px 0;
+  border-radius: 5px;
+}
+
+.form__submit {
+  width: 50%;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.form__submit:hover {
+  color: #FEB95F;
+  transform: scale(1.05);
+}
+.form__submit:active {
+  transform: scale(1);
 }
 
 #name {
