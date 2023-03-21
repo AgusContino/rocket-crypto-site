@@ -210,18 +210,20 @@ h3 {
   position: relative;
   z-index: 2;
 }
-.custody .spaceships-2 {
-  position: absolute;
-  right: 0;
-  top: 10vh;
-  z-index: 0;
-  max-width: 50vw;
-}
 
 .custody__exchangesAndWallets {
   background-color: #222A68;
   min-height: 45vh;
   display: flex;
+  position: relative;
+}
+.custody__exchangesAndWallets .spaceships-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  max-width: 50vw;
+  max-height: 80vh;
 }
 
 .custody__exchange {
