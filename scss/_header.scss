@@ -9,6 +9,8 @@ header {
 	padding: 0;
 	margin: 0;
 	height: 10vh;
+	position: relative;
+	z-index: 20;
 }
 .nav__navbar {
 	background-color: $background-color_1;

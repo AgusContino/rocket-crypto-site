@@ -18,6 +18,15 @@
 		}
 	}
 }
+@media (max-width: 1300px) {
+	.altCoins__cardsContainer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.altCoins__coinCard {
+		width: 32%;
+	}
+}
 @media (max-width: 1200px) {
 	.hardwareWallets{
 		.mainContainer{
@@ -46,6 +55,36 @@
 		}
 	}
 }
+@media (max-width: 999px) {
+	.mainContainer {
+		padding: 1em 0 1em 0;
+		h2 {
+			text-align: center;
+			padding: 0 0 0.5em 0;
+			font-size: 1.5em;
+		}
+		p {
+			font-size: 0.9em;
+		}
+	}
+	h3 {
+		text-align: center;
+		padding: 0 0 0.5em 0;
+		font-size: 1.5em;
+	}
+	.altCoins__coinCard {
+		width: 30%;
+		h5 {
+			font-size: 1em;
+		}
+		p {
+			font-size: 0.8em;
+		}
+		a {
+			font-size: 0.8em;
+		}
+	}
+}
 @media (max-width: 900px) {
 	.invitation {
 		background-image: url(../media/bg-store-flip.png);
@@ -60,6 +99,63 @@
 	}
 	.map{
 		width: 75vw;
+	}
+}
+@media (max-width: 880px) {
+	.mcFlex {
+		display: flex;
+		flex-direction: column;
+	}
+	.mainCoin__btc {
+		width: auto;
+		margin: 0 0 0 0;
+	}
+	.mainCoin__eth {
+		width: auto;
+		margin: 1em 0 0 0;
+	}
+	.custody__exchange{
+		width: auto;
+		margin: 0 0 0 0;
+	}
+	.custody__wallet{
+		width: auto;
+		margin: 1em 0 0 0;
+	}
+	.spaceships-1{
+		max-width: 95vw !important;
+	}
+	.spaceship-4{
+		max-width: 95vw !important;
+	}
+	.spaceships-2{
+		max-width: 95vw !important;
+	}
+	.wagon-1{
+		display: none;
+	}
+	.wagon-2{
+		display: none;
+	}
+	.spaceship-3{
+		display: none;
+	}
+	.car-1{
+		display: none;
+	}
+}
+@media (max-width: 650px) {
+	.intro {
+		padding: 0 3vw 0 3vw;
+	}
+	.mainCoins {
+		padding: 0 3vw 0 3vw;
+	}
+	.altCoins {
+		padding: 0 3vw 0 3vw;
+	}
+	.stableCoins {
+		padding: 0 3vw 0 3vw;
 	}
 }
 @media (max-width: 600px) {
@@ -125,73 +221,6 @@
 		width: 100%;
 	}
 
-}
-@media (max-width: 1300px) {
-	.altCoins__cardsContainer {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	.altCoins__coinCard {
-		width: 32%;
-	}
-}
-@media (max-width: 999px) {
-	.mainContainer {
-		padding: 1em 0 1em 0;
-		h2 {
-			text-align: center;
-			padding: 0 0 0.5em 0;
-			font-size: 1.5em;
-		}
-		p {
-			font-size: 0.9em;
-		}
-	}
-	h3 {
-		text-align: center;
-		padding: 0 0 0.5em 0;
-		font-size: 1.5em;
-	}
-	.altCoins__coinCard {
-		width: 30%;
-		h5 {
-			font-size: 1em;
-		}
-		p {
-			font-size: 0.8em;
-		}
-		a {
-			font-size: 0.8em;
-		}
-	}
-}
-@media (max-width: 880px) {
-	.mcFlex {
-		display: flex;
-		flex-direction: column;
-	}
-	.mainCoin__btc {
-		width: auto;
-		margin: 0 0 0 0;
-	}
-	.mainCoin__eth {
-		width: auto;
-		margin: 1em 0 0 0;
-	}
-}
-@media (max-width: 650px) {
-	.intro {
-		padding: 0 3vw 0 3vw;
-	}
-	.mainCoins {
-		padding: 0 3vw 0 3vw;
-	}
-	.altCoins {
-		padding: 0 3vw 0 3vw;
-	}
-	.stableCoins {
-		padding: 0 3vw 0 3vw;
-	}
 }
 @media (max-width: 500px) {
 	.altCoins__coinCard {
