@@ -101,7 +101,8 @@ section {
   margin: auto;
   z-index: 5;
 }
-.mainContainer h2, .mainContainer h1 {
+.mainContainer h2,
+.mainContainer h1 {
   text-align: center;
   padding: 0 0 1em 0;
 }

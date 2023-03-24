@@ -60,7 +60,7 @@ section {
 	flex-direction: column;
 	position: relative;
 
-	.spaceships-1{
+	.spaceships-1 {
 		position: absolute;
 		z-index: 0;
 		left: 0px;
@@ -74,7 +74,8 @@ section {
 	margin: auto;
 	z-index: 5;
 
-	h2, h1 {
+	h2,
+	h1 {
 		text-align: center;
 		padding: 0 0 1em 0;
 	}
@@ -93,7 +94,8 @@ h3 {
 	background-color: $background-color_3;
 	min-height: 50vh;
 	display: flex;
-	h2{
+
+	h2 {
 		text-align: center;
 		padding: 0 0 1em 0;
 	}
@@ -103,7 +105,7 @@ h3 {
 	@include secondary__section;
 	background-image: url(../media/btc-transparent.png);
 
-	h2{
+	h2 {
 		color: $main__color-5;
 		font-weight: 800;
 	}
@@ -113,7 +115,7 @@ h3 {
 	@include secondary__section;
 	background-image: url(../media/eth-transparent.png);
 
-	h2{
+	h2 {
 		color: $main__color-5;
 		font-weight: 800;
 	}
@@ -130,7 +132,8 @@ h3 {
 
 .card__link {
 	margin: auto 0 0 0;
-	&:hover{
+
+	&:hover {
 		text-decoration: underline;
 	}
 }
@@ -139,7 +142,8 @@ h3 {
 	background-color: $background-color_1;
 	background: linear-gradient(to bottom, $background-color_3, $background-color_4);
 	position: relative;
-	*{
+
+	* {
 		position: relative;
 		z-index: 10;
 	}
@@ -149,12 +153,12 @@ h3 {
 	background-color: $background-color_4;
 	position: relative;
 
-	.mainContainer{
+	.mainContainer {
 		position: relative;
 		z-index: 10;
 	}
 
-	.spaceship-4{
+	.spaceship-4 {
 		position: absolute;
 		right: 0;
 		bottom: 0;
@@ -173,11 +177,11 @@ h3 {
 	min-height: 45vh;
 	position: relative;
 
-	.mainContainer{
+	.mainContainer {
 		position: relative;
 		z-index: 2;
 	}
-	
+
 }
 
 .custody__exchangesAndWallets {
@@ -186,7 +190,7 @@ h3 {
 	display: flex;
 	position: relative;
 
-	.spaceships-2{
+	.spaceships-2 {
 		position: absolute;
 		right: 0;
 		bottom: 0;
@@ -196,21 +200,21 @@ h3 {
 	}
 }
 
-.custody__exchange{
+.custody__exchange {
 	@include secondary__section;
 	background-image: url(../media/exchanges-transparent.png);
 
-	h2{
+	h2 {
 		color: $main__color-5;
 		font-weight: 800;
 	}
 }
 
-.custody__wallet{
+.custody__wallet {
 	@include secondary__section;
 	background-image: url(../media/wallet-transparent.png);
 
-	h2{
+	h2 {
 		color: $main__color-5;
 		font-weight: 800;
 	}
@@ -242,12 +246,12 @@ h3 {
 	min-height: 90vh;
 	position: relative;
 
-	.mainContainer{
+	.mainContainer {
 		position: relative;
 		z-index: 1;
 	}
 
-	.wagon-1{
+	.wagon-1 {
 		position: absolute;
 		left: 0;
 		top: 5vh;
@@ -263,12 +267,12 @@ h3 {
 	min-height: 90vh;
 	position: relative;
 
-	.mainContainer{
+	.mainContainer {
 		position: relative;
 		z-index: 1;
 	}
 
-	.wagon-2{
+	.wagon-2 {
 		position: absolute;
 		right: 0;
 		bottom: 0;
@@ -285,6 +289,7 @@ h3 {
 	.walletCard {
 		@include product__card--style;
 	}
+
 	.rigCard {
 		@include product__card--style;
 		width: 300px;
@@ -297,21 +302,23 @@ h3 {
 
 .contact {
 	background-color: $background-color_3;
-	form{
+
+	form {
 		padding: 0 0 2em 0;
 	}
 
-	.mainContainer{
+	.mainContainer {
 		position: relative;
 
-		.spaceship-3{
+		.spaceship-3 {
 			position: absolute;
 			right: 2vw;
 			top: 10vh;
 			max-width: 50vw;
 			z-index: 0;
 		}
-		.car-1{
+
+		.car-1 {
 			position: absolute;
 			left: 0;
 			bottom: 0;
@@ -329,25 +336,28 @@ h3 {
 	width: 30vw;
 	position: relative;
 	z-index: 2;
+
 	* {
 		margin: 2px 0 2px 0;
 		border-radius: 5px;
 	}
 }
 
-.form__submit{
-		width: 50%;
-        padding: 10px;
-        font-weight: 800;
-        border-radius: 10px;
-		transition: all 0.5s;
-		&:hover{
-			color: $main__color-5;
-			transform: scale(1.05);
-		}
-		&:active{
-			transform: scale(1);
-		}
+.form__submit {
+	width: 50%;
+	padding: 10px;
+	font-weight: 800;
+	border-radius: 10px;
+	transition: all 0.5s;
+
+	&:hover {
+		color: $main__color-5;
+		transform: scale(1.05);
+	}
+
+	&:active {
+		transform: scale(1);
+	}
 }
 
 #name {

@@ -18,29 +18,31 @@ $product__card--bgColor: rgb(20, 20, 20);
 
 @mixin buttonTransform {
     transition: all 0.5s;
-    &:hover{
+
+    &:hover {
         background-color: $color_2;
-	    color: $main__color-5;
+        color: $main__color-5;
         transform: scale(1.05);
     }
-    &:active{
+
+    &:active {
         transform: scale(1);
     }
 }
 
-@mixin secondary__section{
+@mixin secondary__section {
     width: 50%;
-	padding: 15px;
-	margin: 0 1vw 0 0;
-	border: 5px solid $main__color-5;
-	border-radius: 10px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 50%;
+    padding: 15px;
+    margin: 0 1vw 0 0;
+    border: 5px solid $main__color-5;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
 }
 
 @mixin product__card--style {
-	width: 250px;
+    width: 250px;
     background-color: $product__card--bgColor;
     box-sizing: content-box;
     padding: 10px;
@@ -52,14 +54,17 @@ $product__card--bgColor: rgb(20, 20, 20);
     h3 {
         padding: 0;
     }
+
     img {
         border-radius: 5px;
         padding: 5px 0 15px 0;
     }
+
     .price {
         font-size: 1.5em;
         text-align: center;
     }
+
     button {
         margin: auto auto 0 auto;
         padding: 10px;
